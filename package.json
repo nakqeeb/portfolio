@@ -49,7 +49,6 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://nakqeeb.github.io/nakqeeb/",
   "devDependencies": {
     "gh-pages": "^6.1.1"
   }
