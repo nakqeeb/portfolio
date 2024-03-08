@@ -74,7 +74,8 @@
     z-index: 1;
     background-color: var(--gray-50);
   }
-  .sidebar .sidebar-links {}
+  .sidebar .sidebar-links {
+  }
   .sidebar .sidebar-links ul {
     display: flex;
     flex-direction: column;
@@ -108,11 +109,11 @@
   }
   .sidebar .sidebar-btn button {
     margin: 20px;
-  height: 36px;
-  width: 136px;
-  border: none;
-  background-color: var(--gray-900);
-  border-radius: 50px;
-  color: var(--gray-50);
+    height: 36px;
+    width: 136px;
+    border: none;
+    background-color: var(--gray-900);
+    border-radius: 50px;
+    color: var(--gray-50);
   }
 }
