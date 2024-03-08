@@ -90,22 +90,22 @@ const Header: FC<{ onClick: any; checked: boolean }> = ({
               <div className="sidebar-links">
                 <ul className="body2-medium">
                   <li>
-                    <a href="#about">About</a>
+                    <a href="#about" onClick={() => setIsSidebarOpen(!isSidebarOpen)}>About</a>
                   </li>
                   <li>
-                    <a href="#skills">Skills</a>
+                    <a href="#skills" onClick={() => setIsSidebarOpen(!isSidebarOpen)}>Skills</a>
                   </li>
                   <li>
-                    <a href="#experience">Experience</a>
+                    <a href="#experience" onClick={() => setIsSidebarOpen(!isSidebarOpen)}>Experience</a>
                   </li>
                   <li>
-                    <a href="#work">Work</a>
+                    <a href="#work" onClick={() => setIsSidebarOpen(!isSidebarOpen)}>Work</a>
                   </li>
                   <li>
-                    <a href="#testimonials">Testimonials</a>
+                    <a href="#testimonials" onClick={() => setIsSidebarOpen(!isSidebarOpen)}>Testimonials</a>
                   </li>
                   <li>
-                    <a href="#contacts">Contact</a>
+                    <a href="#contacts" onClick={() => setIsSidebarOpen(!isSidebarOpen)}>Contact</a>
                   </li>
                 </ul>
               </div>
