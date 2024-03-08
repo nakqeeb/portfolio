@@ -1,0 +1,72 @@
+.experience-card {
+  width: 896px;
+  height: 288px;
+  max-width: 100%;
+  padding: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 48px;
+  background-color: var(--gray-default);
+  box-shadow: var(--box-shadow-md);
+  border-radius: 10px;
+}
+
+.experience-card .company-name {
+  width: 206px;
+  max-width: 100%;
+}
+
+.experience-card .company-name p {
+  color: var(--emerald-color-500);
+  margin: 0;
+}
+
+.experience-card .exp-info {
+  width: 384px;
+  height: 180px;
+  max-width: 100%;
+}
+
+.experience-card .exp-info p {
+  color: var(--gray-900);
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.experience-card ul {
+  list-style: outside;
+  color: var(--gray-600);
+  padding-left: 24px;
+}
+
+.experience-card .date {
+  width: 146px;
+  max-width: 100%;
+}
+
+.experience-card .date p {
+  color: var(--gray-600);
+  margin-top: 0;
+}
+
+@media (max-width: 767px) {
+  .experience-card {
+    height: 372px;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .experience-card .company-name {
+    order: 1;
+  }
+  .experience-card .exp-info {
+    order: 3;
+    height: 100%;
+  }
+  .experience-card .date {
+    order: 2;
+  }
+  .experience-card .date p {
+    margin: 0;
+  }
+}

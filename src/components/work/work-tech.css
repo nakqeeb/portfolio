@@ -1,0 +1,12 @@
+.work-tech {
+  background-color: var(--gray-200);
+  width: fit-content;
+  height: 28px;
+  border-radius: 50px;
+  text-align: center;
+  color: var(--gray-600);
+  padding: 4px 20px;
+}
+.work-tech p {
+  margin: 0;
+}

@@ -1,0 +1,31 @@
+.experience {
+  padding-top: var(--main-padding-top);
+  padding-bottom: var(--main-padding-bottom);
+  padding-left: var(--main-padding-left);
+  padding-right: var(--main-padding-right);
+  background-color: var(--gray-50);
+}
+.experience .container {
+  padding-left: var(--container-padding-left);
+  padding-right: var(--container-padding-right);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 48px;
+}
+
+@media (max-width: 767px) {
+  .experience {
+    padding-top: var(--mobile-padding-top);
+    padding-bottom: var(--mobile-padding-bottom);
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .experience .container {
+    padding-left: var(--mobile-container-padding-left);
+    padding-right: var(--mobile-container-padding-right);
+    row-gap: 16px;
+    column-gap: 48px;
+  }
+}

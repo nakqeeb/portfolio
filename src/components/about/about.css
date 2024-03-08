@@ -1,0 +1,111 @@
+.about {
+  padding-top: var(--main-padding-top);
+  padding-bottom: var(--main-padding-bottom);
+  padding-left: var(--main-padding-left);
+  padding-right: var(--main-padding-right);
+  background-color: var(--gray-50);
+}
+
+.about .container {
+  padding-left: var(--container-padding-left);
+  padding-right: var(--container-padding-right);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about .container .image {
+  width: 584px;
+  height: 694px;
+  position: relative;
+}
+
+.about .container .image img {
+  width: 400px;
+  height: 480px;
+  position: relative;
+}
+
+.about .container .image::before {
+  content: "";
+  background-color: var(--gray-200);
+  position: absolute;
+  left: -30px;
+  bottom: 185px;
+  width: 400px;
+  height: 480px;
+}
+
+.about .container .about-me {
+  width: 584px;
+  height: 694px;
+  max-width: 100%;
+}
+
+.about .container .about-me h3 {
+  color: var(--gray-900);
+  margin: 0;
+}
+
+.about .container .about-me p {
+  color: var(--gray-600);
+}
+
+.about .container .lists {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about .container .lists ul {
+  list-style: inside;
+  width: 287px;
+  color: var(--gray-600);
+}
+
+.about .container .lists ul li {
+  /* height: 24px; */
+  padding-bottom: 12px;
+}
+
+@media (max-width: 1200px) {
+  .about {
+    padding-top: var(--mobile-padding-top);
+    padding-bottom: var(--mobile-padding-bottom);
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .about .container {
+    padding-left: var(--mobile-container-padding-left);
+    padding-right: var(--mobile-container-padding-right);
+    flex-direction: column;
+    gap: 48px;
+  }
+  .about .container .image {
+    text-align: center;
+    width: 100%;
+    height: 380px;
+  }
+
+  .about .container .image img {
+    width: 280px;
+    height: 360px;
+  }
+
+  .about .container .image::before {
+    left: 50%;
+    bottom: 0;
+    width: 320px;
+    height: 360px;
+    transform: translateX(-50%);
+  }
+  .about .container .lists ul {
+    width: 166.5px;
+    list-style: outside;
+    padding-left: var(--mobile-container-padding-left);
+    padding-right: var(--mobile-container-padding-right);
+  }
+  .about .container .about-me {
+    height: 100%;
+  }
+}

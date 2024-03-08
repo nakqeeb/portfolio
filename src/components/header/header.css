@@ -1,0 +1,118 @@
+.header {
+  height: 68px;
+}
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 68px;
+}
+.header .container .logo {
+  color: var(--gray-900);
+  font-size: 30px;
+  font-weight: bold;
+}
+.header .container .navlinks-and-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* width: 554px; */
+  width: 700px;
+}
+.header .container .navlinks-and-buttons .navlinks {
+  /* width: 290px; */
+  width: 440px;
+}
+.header .container .navlinks-and-buttons ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .container .navlinks-and-buttons ul a {
+  color: var(--gray-600);
+}
+
+.header .container .navlinks-and-buttons .buttons {
+  width: 220px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .container .navlinks-and-buttons .buttons button {
+  height: 36px;
+  width: 136px;
+  border: none;
+  background-color: var(--gray-900);
+  border-radius: 50px;
+  color: var(--gray-50);
+}
+.header .container .menu {
+  display: none;
+}
+@media (max-width: 992px) {
+  .header .container .menu {
+    display: block;
+    position: relative;
+  }
+  .header .container .menu .menu-icon {
+    width: 24px;
+    height: 24px;
+    color: var(--gray-600);
+  }
+  .header .container .navlinks-and-buttons {
+    display: none;
+  }
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    width: 320px;
+    height: calc(100vh - 68px);
+    z-index: 1;
+    background-color: var(--gray-50);
+  }
+  .sidebar .sidebar-links {}
+  .sidebar .sidebar-links ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .sidebar .sidebar-links ul li {
+    margin: 20px;
+  }
+  .sidebar .sidebar-links ul li a {
+    color: var(--gray-600);
+  }
+  .sidebar .sidebar-btn {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: self-start;
+  }
+  .sidebar .sidebar-btn .theme-btn {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-top: 1px solid var(--gray-300);
+    border-bottom: 1px solid var(--gray-300);
+  }
+  .sidebar .sidebar-btn .theme-btn p {
+    color: var(--gray-600);
+  }
+  .sidebar .sidebar-btn button {
+    margin: 20px;
+  height: 36px;
+  width: 136px;
+  border: none;
+  background-color: var(--gray-900);
+  border-radius: 50px;
+  color: var(--gray-50);
+  }
+}

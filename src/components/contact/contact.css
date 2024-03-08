@@ -1,0 +1,84 @@
+.contacts {
+  padding-top: var(--main-padding-top);
+  padding-bottom: var(--main-padding-bottom);
+  padding-left: var(--main-padding-left);
+  padding-right: var(--main-padding-right);
+  background-color: var(--gray-default);
+}
+
+.contacts .container {
+  padding-left: var(--container-padding-left);
+  padding-right: var(--container-padding-right);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 48px;
+}
+
+.contacts .container .contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.contacts .container .contact .mail,
+.contacts .container .contact .phone {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.contacts .container .contact .mail-phone-icons {
+  width: 32px;
+  height: 32px;
+  color: var(--gray-600);
+}
+
+.contacts .container .contact a {
+  color: var(--gray-900);
+}
+
+.contacts .container .social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.contacts .container .social p {
+  margin: 0;
+  color: var(--gray-600);
+}
+
+.contacts .container .social .social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.contacts .container .social .social-icons .icon {
+  width: 24px;
+  height: 24px;
+  color: var(--gray-600);
+}
+
+@media (max-width: 992px) {
+  .contacts {
+    padding-top: var(--mobile-padding-top);
+    padding-bottom: var(--mobile-padding-bottom);
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .contacts .container {
+    padding-left: var(--mobile-container-padding-left);
+    padding-right: var(--mobile-container-padding-right);
+    row-gap: 24px;
+  }
+}
