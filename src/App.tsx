@@ -28,13 +28,13 @@ function App() {
     function updatePosition() {
       setPsition(window.pageYOffset);
     }
-    window.addEventListener('scroll', updatePosition);
+    window.addEventListener("scroll", updatePosition);
     updatePosition();
-    return () => window.removeEventListener('scroll', updatePosition);
+    return () => window.removeEventListener("scroll", updatePosition);
   }, []);
 
   useEffect(() => {
-    setIsTop(position === 0)
+    setIsTop(position === 0);
   }, [position]);
 
   const switchTheme = () => {
@@ -46,7 +46,13 @@ function App() {
   };
   return (
     <div className="app" data-theme={theme}>
-      {!isTop && <FontAwesomeIcon className="scroll-btn" onClick={scrollToTop} icon={faAnglesUp} />}
+      {!isTop && (
+        <FontAwesomeIcon
+          className="scroll-btn"
+          onClick={scrollToTop}
+          icon={faAnglesUp}
+        />
+      )}
       <Header onClick={switchTheme} checked={theme === "light"} />
       <Landing />
       <About />
