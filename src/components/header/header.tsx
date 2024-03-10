@@ -3,7 +3,6 @@ import "./header.css";
 import SwitchModeButton from "./switch-mode-button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
-import Sidebar from "./sidebar";
 import { motion } from "framer-motion";
 
 
