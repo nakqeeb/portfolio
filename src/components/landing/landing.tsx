@@ -15,11 +15,7 @@ const Landing = () => {
         <div className="info">
           <h1 className="heading-h1 ">Hi, I'm Khaled 👋</h1>
           <p className="overview body2">
-            I'm a full stack developer (React.js & Node.js) with a focus on
-            creating (and occasionally designing) exceptional digital
-            experiences that are fast, accessible, visually appealing, and
-            responsive. Even though I have been creating web applications for
-            over 7 years, I still love it as if it was something new.
+            Highly motivated and results-oriented React.js developer with 6 months of professional experience building real-world applications. Seeking a challenging position to leverage expertise in (React.js, Node.js) to contribute to the success of a collaborative development team.
           </p>
           <div className="location">
             <FontAwesomeIcon className="location-icon" icon={faLocation} />
@@ -33,9 +29,9 @@ const Landing = () => {
             <a href="https://github.com/nakqeeb" target="_blank">
               <FontAwesomeIcon icon={faGithub} />
             </a>
-            <a href="https://x.com/nakqeeb" target="_blank">
+            {/* <a href="https://x.com/nakqeeb" target="_blank">
               <FontAwesomeIcon icon={faTwitter} />
-            </a>
+            </a> */}
             <a href="https://www.linkedin.com/in/nakqeeb" target="_blank">
               <FontAwesomeIcon icon={faLinkedin} />
             </a>

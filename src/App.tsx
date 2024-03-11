@@ -59,7 +59,7 @@ function App() {
       <Skills />
       <Experience />
       <Work />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Contact />
       <Footer />
     </div>

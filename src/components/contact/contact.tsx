@@ -96,9 +96,9 @@ const Contact = () => {
             <a href="https://github.com/nakqeeb" target="_blank">
               <FontAwesomeIcon className="icon" icon={faGithub} />
             </a>
-            <a href="https://x.com/nakqeeb" target="_blank">
+            {/* <a href="https://x.com/nakqeeb" target="_blank">
               <FontAwesomeIcon className="icon" icon={faTwitter} />
-            </a>
+            </a> */}
             <a href="https://www.linkedin.com/in/nakqeeb" target="_blank">
               <FontAwesomeIcon className="icon" icon={faLinkedin} />
             </a>

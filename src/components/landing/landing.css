@@ -53,7 +53,8 @@
   margin-right: 8px;
 }
 .landing .container .info .social {
-  width: 90px;
+  /* width: 90px; */
+  width: 60px;
   display: flex;
   justify-content: space-between;
   align-items: center;

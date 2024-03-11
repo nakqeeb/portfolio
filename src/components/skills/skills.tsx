@@ -16,6 +16,8 @@ import figma_icon from "../../assets/logos/icon-figma.svg";
 import cypress_icon from "../../assets/logos/icon-cypress.svg";
 import storybook_icon from "../../assets/logos/icon-storybook.svg";
 import git_icon from "../../assets/logos/icon-git.svg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBootstrap, faCss3Alt, faHtml5 } from "@fortawesome/free-brands-svg-icons";
 
 const Skills = () => {
   return (
@@ -25,6 +27,14 @@ const Skills = () => {
         description="The skills, tools and technologies I am really good at:"
       />
       <div className="container">
+        <div className="skill">
+          <FontAwesomeIcon style={{width: "64px", height: "64px", color: "#dc4a25"}} icon={faHtml5} />
+          <p className="body1">HTML</p>
+        </div>
+        <div className="skill">
+          <FontAwesomeIcon style={{width: "64px", height: "64px", color: "#2762e9"}} icon={faCss3Alt} />
+          <p className="body1">CSS</p>
+        </div>
         <div className="skill">
           <img src={javascript_icon} alt="" />
           <p className="body1">Javascript</p>
@@ -37,10 +47,10 @@ const Skills = () => {
           <img src={react_icon} alt="" />
           <p className="body1">React</p>
         </div>
-        <div className="skill">
+        {/* <div className="skill">
           <img src={nextjs_icon} alt="" />
           <p className="body1">Next.js</p>
-        </div>
+        </div> */}
         <div className="skill">
           <img src={nodejs_icon} alt="" />
           <p className="body1">Node.js</p>
@@ -53,27 +63,32 @@ const Skills = () => {
           <img src={nest_icon} alt="" />
           <p className="body1">Nest.js</p>
         </div>
-        <div className="skill">
+        {/* <div className="skill">
           <img src={socket_icon} alt="" />
           <p className="body1">Socket.io</p>
-        </div>
-        <div className="skill">
+        </div> */}
+
+        {/* <div className="skill">
           <img src={postgresql_icon} alt="" />
           <p className="body1">PostgreSQL</p>
-        </div>
+        </div> */}
         <div className="skill">
           <img src={mongodb_icon} alt="" />
           <p className="body1">MongoDB</p>
         </div>
-        <div className="skill">
+        {/* <div className="skill">
           <img src={sass_icon} alt="" />
           <p className="body1">Sass/Scss</p>
-        </div>
-        <div className="skill">
+        </div> */}
+        {/* <div className="skill">
           <img src={tailwindcss_icon} alt="" />
           <p className="body1">Tailwindcss</p>
-        </div>
+        </div> */}
         <div className="skill">
+          <FontAwesomeIcon style={{width: "64px", height: "64px", color: "#6f5499"}} icon={faBootstrap} />
+          <p className="body1">Bootstrap</p>
+        </div>
+        {/* <div className="skill">
           <img src={figma_icon} alt="" />
           <p className="body1">Figma</p>
         </div>
@@ -84,7 +99,7 @@ const Skills = () => {
         <div className="skill">
           <img src={storybook_icon} alt="" />
           <p className="body1">Storybook</p>
-        </div>
+        </div> */}
         <div className="skill">
           <img src={git_icon} alt="" />
           <p className="body1">Git</p>

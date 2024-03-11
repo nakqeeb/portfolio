@@ -3,7 +3,7 @@
   padding-bottom: var(--main-padding-bottom);
   padding-left: var(--main-padding-left);
   padding-right: var(--main-padding-right);
-  background-color: var(--gray-default);
+  background-color: var(--gray-50);
 }
 
 .contacts .container {

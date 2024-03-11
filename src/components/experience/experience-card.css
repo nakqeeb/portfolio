@@ -1,6 +1,7 @@
 .experience-card {
   width: 896px;
-  height: 288px;
+  /* height: 288px; */
+  height: 320px;
   max-width: 100%;
   padding: 32px;
   display: flex;
@@ -52,7 +53,8 @@
 
 @media (max-width: 767px) {
   .experience-card {
-    height: 372px;
+    /* height: 372px; */
+    height: 490px;
     flex-direction: column;
     gap: 16px;
   }

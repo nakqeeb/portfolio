@@ -54,9 +54,9 @@ const Header: FC<{ onClick: any; checked: boolean }> = ({
               <li>
                 <a href="#work">Work</a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#testimonials">Testimonials</a>
-              </li>
+              </li> */}
               <li>
                 <a href="#contacts">Contact</a>
               </li>
@@ -101,9 +101,9 @@ const Header: FC<{ onClick: any; checked: boolean }> = ({
                   <li>
                     <a href="#work" onClick={() => setIsSidebarOpen(!isSidebarOpen)}>Work</a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a href="#testimonials" onClick={() => setIsSidebarOpen(!isSidebarOpen)}>Testimonials</a>
-                  </li>
+                  </li> */}
                   <li>
                     <a href="#contacts" onClick={() => setIsSidebarOpen(!isSidebarOpen)}>Contact</a>
                   </li>
