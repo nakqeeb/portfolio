@@ -74,8 +74,6 @@
     z-index: 1;
     background-color: var(--gray-50);
   }
-  .sidebar .sidebar-links {
-  }
   .sidebar .sidebar-links ul {
     display: flex;
     flex-direction: column;
