@@ -61,7 +61,7 @@ const Contact = () => {
           </div>
           <div className="phone">
             <FontAwesomeIcon className="mail-phone-icons" icon={faPhone} />
-            <a className="heading-h2" href="tel:+967780004781">
+            <a className="heading-h2" href="tel:+966539170501">
               +966 53 917 0501
             </a>
             {!isPhoneCopied && (
@@ -70,7 +70,7 @@ const Contact = () => {
                 style={{ cursor: "pointer" }}
                 icon={faCopy}
                 onClick={async () => {
-                  await copyTextToClipboard("+967780004781");
+                  await copyTextToClipboard("+966539170501");
                   setIsPhoneCopied(true);
                   setIsEmailCopied(false);
                 }}
