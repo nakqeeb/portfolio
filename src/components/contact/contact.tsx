@@ -62,7 +62,7 @@ const Contact = () => {
           <div className="phone">
             <FontAwesomeIcon className="mail-phone-icons" icon={faPhone} />
             <a className="heading-h2" href="tel:+967780004781">
-              +967 780004781
+              +966 53 917 0501
             </a>
             {!isPhoneCopied && (
               <FontAwesomeIcon
