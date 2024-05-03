@@ -19,7 +19,8 @@ const Landing = () => {
           </p>
           <div className="location">
             <FontAwesomeIcon className="location-icon" icon={faLocation} />
-            <p className="body2">Hadhramaut, Yemen</p>
+            <p className="body2">Jeddah, Saudi Arabia</p>
+            {/* <p className="body2">Hadhramaut, Yemen</p> */}
           </div>
           <div className="available">
             <div className="green-dot"></div>
