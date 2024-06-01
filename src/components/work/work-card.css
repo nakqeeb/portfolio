@@ -24,6 +24,8 @@
   height: 384px;
   border-radius: 10px;
   box-shadow: var(--box-shadow-lg);
+  object-fit: cover;
+  object-position: center;
 }
 .work-card .feature {
   width: 50%;

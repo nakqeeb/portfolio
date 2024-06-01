@@ -5,6 +5,7 @@ import html_1 from "../../assets/my-work/html_1.png";
 import html_2 from "../../assets/my-work/html_2.png";
 import html_3 from "../../assets/my-work/html_3.png";
 import portfolio from "../../assets/my-work/portfolio.png";
+import landing_page from "../../assets/my-work/landing-page.png";
 import WorkCard from "./work-card";
 
 const Work = () => {
@@ -29,7 +30,7 @@ const Work = () => {
             "Figma",
             "Git",
           ]}
-          projectPreviewLink="https://portfolio-4o96gdtmq-nakqeeb.vercel.app/"
+          projectPreviewLink="https://nakqeeb.github.io/portfolio/"
         />
         <WorkCard
           projectImage={work_1}
@@ -38,10 +39,11 @@ const Work = () => {
           Vanilla CSS
           This frontend application builds upon the previous
           description by showcasing additional functionalities
-          and advanced development practices. You can find the project source code in my CV."
+          and advanced development practices."
           projectTechs={[
             "React",
             "Typescript",
+            'Redux.js',
             "CSS",
             "Figma",
             "Git",
@@ -50,11 +52,25 @@ const Work = () => {
           isRTL={true}
         />
         <WorkCard
+          projectImage={landing_page}
+          projectTitle="LandingPage UI"
+          projectInfo="Developed a responsive landing page using React.js, inspired by a Figma design. Utilized CSS animations to enhance visual appeal and user experience."
+          projectTechs={[
+            "React",
+            "Typescript",
+            "CSS",
+            "Animation",
+            "Figma",
+            "Git",
+          ]}
+          projectPreviewLink="https://nakqeeb.github.io/landing-page/"
+        />
+        <WorkCard
           projectImage={html_1}
           projectTitle="HTML_template_1"
           projectInfo="Hand­Crafted Websites using HTML & Vanilla CSS with a focus on clean code structure, user
           experience, and responsiveness for optimal performance
-          across devices. You can find the project source code in my CV."
+          across devices."
           projectTechs={[
             "HTML",
             "CSS",
@@ -67,7 +83,7 @@ const Work = () => {
           projectTitle="HTML_template_2"
           projectInfo="Hand­Crafted Websites using HTML & Vanilla CSS with a focus on clean code structure, user
           experience, and responsiveness for optimal performance
-          across devices. You can find the project source code in my CV."
+          across devices."
           projectTechs={[
             "HTML",
             "CSS",
@@ -81,7 +97,7 @@ const Work = () => {
           projectTitle="HTML_template_3"
           projectInfo="Hand­Crafted Websites using HTML & Vanilla CSS with a focus on clean code structure, user
           experience, and responsiveness for optimal performance
-          across devices. You can find the project source code in my CV."
+          across devices."
           projectTechs={[
             "HTML",
             "CSS",

@@ -7,9 +7,11 @@ import nodejs_icon from "../../assets/logos/icon-nodejs.svg";
 import express_icon from "../../assets/logos/icon-express.svg";
 import nest_icon from "../../assets/logos/icon-nest.svg";
 import mongodb_icon from "../../assets/logos/icon-mongodb.svg";
+import redux from "../../assets/logos/redux.svg";
+import firebase from "../../assets/logos/firebase.svg";
 // import nextjs_icon from "../../assets/logos/icon-nextjs.svg";
 // import socket_icon from "../../assets/logos/icon-socket.svg";
-// import postgresql_icon from "../../assets/logos/icon-postgresql.svg";
+import postgresql_icon from "../../assets/logos/icon-postgresql.svg";
 // import sass_icon from "../../assets/logos/icon-sass.svg";
 // import tailwindcss_icon from "../../assets/logos/icon-tailwindcss.svg";
 // import figma_icon from "../../assets/logos/icon-figma.svg";
@@ -17,7 +19,7 @@ import mongodb_icon from "../../assets/logos/icon-mongodb.svg";
 // import storybook_icon from "../../assets/logos/icon-storybook.svg";
 import git_icon from "../../assets/logos/icon-git.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBootstrap, faCss3Alt, faHtml5 } from "@fortawesome/free-brands-svg-icons";
+import { faBootstrap, faCss3Alt, faHtml5, faNpm } from "@fortawesome/free-brands-svg-icons";
 
 const Skills = () => {
   return (
@@ -47,10 +49,18 @@ const Skills = () => {
           <img src={react_icon} alt="" />
           <p className="body1">React</p>
         </div>
+        <div className="skill">
+          <img src={redux} alt="" />
+          <p className="body1">Redux</p>
+        </div>
         {/* <div className="skill">
           <img src={nextjs_icon} alt="" />
           <p className="body1">Next.js</p>
         </div> */}
+        <div className="skill">
+          <FontAwesomeIcon className="skill-icon" style={{color: '#c43636'}} icon={faNpm}/>
+          <p className="body1">NPM</p>
+        </div>
         <div className="skill">
           <img src={nodejs_icon} alt="" />
           <p className="body1">Node.js</p>
@@ -73,8 +83,16 @@ const Skills = () => {
           <p className="body1">PostgreSQL</p>
         </div> */}
         <div className="skill">
+          <img src={firebase} alt="" />
+          <p className="body1">Firebase</p>
+        </div>
+        <div className="skill">
           <img src={mongodb_icon} alt="" />
           <p className="body1">MongoDB</p>
+        </div>
+        <div className="skill">
+          <img src={postgresql_icon} alt="" />
+          <p className="body1">PostgreSQL</p>
         </div>
         {/* <div className="skill">
           <img src={sass_icon} alt="" />

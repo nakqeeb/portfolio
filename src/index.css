@@ -31,11 +31,12 @@
   --main-transition: 0.5s;
   --main-padding-top: 96px;
   --main-padding-bottom: 96px;
-  --main-padding-left: 80px;
-  --main-padding-right: 80px;
+  /* --main-padding-left: 80px;
+  --main-padding-right: 80px; */
+  --main-padding-left: 0;
+  --main-padding-right: 0;
   --container-padding-left: 32px;
   --container-padding-right: 32px;
-  --main-padding-right: 80px;
   --mobile-padding-top: 50px;
   --mobile-padding-bottom: 50px;
   --header-height: 75px;

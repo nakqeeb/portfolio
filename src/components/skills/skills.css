@@ -28,6 +28,10 @@
   width: 64px;
   height: 64px;
 }
+.skills .container .skill .skill-icon {
+  width: 64px;
+  height: 64px;
+}
 .skills .container .skill p {
   color: var(--gray-600);
   margin: 0;
