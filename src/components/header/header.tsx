@@ -64,7 +64,7 @@ const Header: FC<{ onClick: any; checked: boolean }> = ({
           </div>
           <div className="buttons">
             <SwitchModeButton onClick={onClick} checked={checked} />
-            <button onClick={() => window?.open('/files/Khaled-Gamal-cv.pdf', '_blank')}>Download CV</button>
+            <button onClick={() => window?.open('/portfolio/files/Khaled-Gamal-cv.pdf', '_blank')}>Download CV</button>
           </div>
         </div>
         <div className="menu" ref={menuRef}>
@@ -114,7 +114,7 @@ const Header: FC<{ onClick: any; checked: boolean }> = ({
                   <p>Switch Theme</p>
                   <SwitchModeButton onClick={onClick} checked={checked} />
                 </div>
-                <button onClick={() => window?.open('/files/Khaled-Gamal-cv.pdf', '_blank')}>Download CV</button>
+                <button onClick={() => window?.open('/portfolio/files/Khaled-Gamal-cv.pdf', '_blank')}>Download CV</button>
               </div>
             </motion.div>
           )}
