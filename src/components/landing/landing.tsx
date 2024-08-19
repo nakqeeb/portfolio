@@ -14,9 +14,10 @@ const Landing = () => {
       <div className="container">
         <div className="info">
           <h1 className="heading-h1 ">Hi, I'm Khaled 👋</h1>
-          <p className="overview body2">
+          {/* <p className="overview body2">
             Highly motivated and results-oriented React.js developer with 6 months of professional experience building real-world applications. Seeking a challenging position to leverage expertise in (React.js, Node.js) to contribute to the success of a collaborative development team.
-          </p>
+          </p> */}
+          <p className="overview body2">Dynamic React.js developer with 6 months of hands-on experience crafting engaging web applications. Proven ability to deliver exceptional user experiences. Seeking a challenging role to apply my skills in building innovative solutions and contributing to a high-performing team.</p>
           <div className="location">
             <FontAwesomeIcon className="location-icon" icon={faLocation} />
             <p className="body2">Jeddah, Saudi Arabia</p>

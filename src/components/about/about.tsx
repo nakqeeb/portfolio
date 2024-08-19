@@ -15,7 +15,7 @@ const About = () => {
           <p className="body2">
             I'm a passionate,{" "}
             <span className="body2-underline">self-proclaimed designer</span>{" "}
-            who specializes in full stack development (React.js & Node.js). I am
+            who specializes in full stack development (React.js & Spring Boot). I am
             very enthusiastic about bringing the technical and visual aspects of
             digital products to life. User experience, pixel perfect design, and
             writing clear, readable, highly performant code matters to me.

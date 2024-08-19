@@ -18,6 +18,9 @@ import postgresql_icon from "../../assets/logos/icon-postgresql.svg";
 // import cypress_icon from "../../assets/logos/icon-cypress.svg";
 // import storybook_icon from "../../assets/logos/icon-storybook.svg";
 import git_icon from "../../assets/logos/icon-git.svg";
+import mysql from "../../assets/logos/mysql.svg";
+import spring_boot from "../../assets/logos/spring_boot.svg";
+import tailwind from "../../assets/logos/tailwindcss.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBootstrap, faCss3Alt, faHtml5, faNpm } from "@fortawesome/free-brands-svg-icons";
 
@@ -58,6 +61,10 @@ const Skills = () => {
           <p className="body1">Next.js</p>
         </div> */}
         <div className="skill">
+          <img src={spring_boot} alt=""/>
+          <p className="body1">Spring Boot</p>
+        </div>
+        <div className="skill">
           <FontAwesomeIcon className="skill-icon" style={{color: '#c43636'}} icon={faNpm}/>
           <p className="body1">NPM</p>
         </div>
@@ -87,6 +94,10 @@ const Skills = () => {
           <p className="body1">Firebase</p>
         </div>
         <div className="skill">
+          <img src={mysql} alt="" style={{width: '135px'}}/>
+          <p className="body1">MySQL</p>
+        </div>
+        <div className="skill">
           <img src={mongodb_icon} alt="" />
           <p className="body1">MongoDB</p>
         </div>
@@ -105,6 +116,10 @@ const Skills = () => {
         <div className="skill">
           <FontAwesomeIcon style={{width: "64px", height: "64px", color: "#6f5499"}} icon={faBootstrap} />
           <p className="body1">Bootstrap</p>
+        </div>
+        <div className="skill">
+          <img src={tailwind} alt=""/>
+          <p className="body1">Tailwind</p>
         </div>
         {/* <div className="skill">
           <img src={figma_icon} alt="" />
