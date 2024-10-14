@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## About this project:
 
-Interactive Portfolio Application with ReactJS. This project showcases your skills in modern web development and design by building a personal portfolio website.
+Interactive Portfolio Application with ReactJS. This project showcases my skills in modern web development and design by building a personal portfolio website.
 
 ## Key features:
 
